@@ -1,0 +1,17 @@
+server:
+  port: 38001
+spring:
+  application:
+    # 应用名
+    name: nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: c716de35-9cb2-4c82-b86b-c74854ef726b
+        group: DEFAULT_GROUP
+        file-extension: yaml # 配置格式（默认是 properties）
+      # 连接注册中心的账号和密码 以下是默认账密
+      username: nacos
+      password: nacos
+

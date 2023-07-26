@@ -1,0 +1,14 @@
+server:
+  port: 18001
+spring:
+  application:
+    # 应用名
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        # 注册中心地址
+        server-addr: 127.0.0.1:8848
+      # 连接注册中心的账号和密码 以下是默认账密
+      username: nacos
+      password: nacos

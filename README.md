@@ -1,7 +1,8 @@
-# [Spring Cloud Alibaba 系列之 Nacos 篇（服务注册与发现）](https://www.maven.vip/archives/1878.html)
+# [Spring Cloud Alibaba 系列之 Nacos 篇（配置中心）](https://www.maven.vip/archives/1887.html)
 
   |项目|端口|说明| 
   |:----    |:---|:----- |
+  |nacos-config |38001  |子项目，配置中心 |
   |nacos-discovery-provider |18001  |子项目，服务提供者 |
   |nacos-discovery-consumer |28001  |子项目，服务消费者 | 
 
